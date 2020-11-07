@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#797b7b</color>
+    <color name="colorPrimaryDark">#2c2d2d</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="green">#22cf64</color>
+    <color name="yello">#ffb300</color>
+    <color name="deeppurple">#7352d1</color>
+    <color name="lightgray">#ededed</color>
+    <color name="textgreen">#14c41a</color>
+    <color name="textred">#f45b58</color>
+
+    <color name="taxiroute">#f45b58</color>
+    <color name="busroute">#52DF75</color>
+    <color name="walkroute">#44D7E4</color>
+    <color name="trainroute">#9944E4</color>
+</resources>

@@ -1,0 +1,87 @@
+<LinearLayout android:layout_width="match_parent"
+    android:id="@+id/optionlayout"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include layout="@layout/toolbar_back" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F0F0F0">
+
+
+
+
+                <ListView
+                    android:id="@+id/optionlist"
+                    android:layout_width="match_parent"
+                    android:divider="@null"
+                    android:dividerHeight="0dp"
+                    android:background="#F0F0F0"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"/>
+
+                <RelativeLayout
+                    android:id="@+id/viewnodata"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:visibility="gone"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <ImageView
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"
+                            android:padding="3dp"
+                            android:src="@drawable/sadface" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Couldn't Found Option"/>
+
+                    </LinearLayout>
+
+                    <ProgressBar
+                        android:id="@+id/pbr"
+                        android:layout_centerInParent="true"
+                        android:visibility="visible"
+                        style="?android:attr/progressBarStyle"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+
+
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+
+    </LinearLayout>
